@@ -41,6 +41,28 @@ This project provides a simple Python server using the MCP (Modular Command Plat
    > **Note:**  
    Ensure that the MCP framework is available. If it is a private or custom package, follow your organization’s installation instructions.
 
+## Installation in Claude Desktop
+
+  ```sh
+  {
+    "mcpServers": {
+      "google_mcp_server":{
+        "command": "uv",
+        "args": [
+          "run",
+          "--with",
+          "mcp[cli]",
+          "mcp",
+          "run",
+          "D:\\MCP\\MCP google\\google_mcp_server.py"
+        ]
+      }
+    }
+  }
+  ```
+  > **Note:**
+  It should be placed in the `claude_desktop_config.json `
+
 ## Usage
 
 ### 1. Start the Server
