@@ -54,7 +54,7 @@ This project provides a simple Python server using the MCP (Modular Command Plat
           "mcp[cli]",
           "mcp",
           "run",
-          "D:\\MCP\\MCP google\\google_mcp_server.py"
+          "path\to\your\location\google_mcp_server.py"
         ]
       }
     }
