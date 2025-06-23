@@ -10,7 +10,7 @@ def open_google_search(query:str):
     url = f"https://www.google.com/search?q={encoded_query}"
     webbrowser.open(url)
 
-@mcp.reseource("greeting://{name}")
+@mcp.resource("greeting://{name}")
 def get_greeting(name:str) -> str:
     return f"Hello {name}!"
 
