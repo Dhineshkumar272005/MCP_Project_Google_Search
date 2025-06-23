@@ -1,8 +1,8 @@
-from mcp.server.fastmcp import fastmcp
+from mcp.server.fastmcp import FastMCP
 import webbrowser
 import urllib.parse
 
-mcp =fastmcp("Google search")
+mcp =FastMCP("Google search")
 
 @mcp.tool()
 def open_google_search(query:str):
